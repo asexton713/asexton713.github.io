@@ -1,0 +1,357 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+header {
+   display:flex;
+   justify-content: space-evenly;
+   align-items: flex-end;
+   margin:3%;
+   width: 85%;
+}
+.logo {
+   margin-left: 20%;
+}
+nav {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   width: 60%;
+   margin: 0 60px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    margin:0 auto;
+}
+.jumbo-img {
+    display:flex;  
+    margin: 0 100%; 
+    margin: 2%;
+    justify-content: center;
+}
+.box1 {
+    background-color: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    background-color: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3 {
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4 {
+    background-color: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5 {
+    background-color: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6 {
+    background-color: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    background-color: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8 {
+    background-color: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9 {
+    background-color: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10 {
+    background-color: dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about {
+    padding: 2%;
+    border-bottom: 2px dotted black;
+}
+.containers {
+    display:flex;
+    width: 100%;
+	flex-flow: wrap;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.section1 {
+    display:flex;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+.section2 {
+    display:flex;
+    margin: 0 auto;
+}
+.container1 {
+    width: 50%;
+    padding: 2%;
+    margin-right: 3%;
+    border-bottom: 1px dotted gray;
+}
+.container2 {
+    width: 50%;
+    padding: 2%;
+    margin-right: 3%;
+    border-bottom: 1px dotted gray;
+}
+.container3 {
+    width: 50%;
+    padding: 2%;
+    margin-right: 3%;
+    border-bottom: 1px dotted gray;
+}
+.container4 {
+    width: 50%;
+    padding: 2%;
+    margin-right: 3%;
+    border-bottom: 1px dotted gray;
+}
+.containers button {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-top: 3%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+
+.form {
+    border-radius: 5px;
+    background-color: darkgray;
+    padding: 20px;
+    margin: 7%;
+  }
